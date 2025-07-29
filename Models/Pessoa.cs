@@ -7,6 +7,17 @@ namespace ExemploExplorando.Models
 {
     public class Pessoa
     {
+        // construtores
+        public Pessoa()
+        {
+            // serve como valor padrao para a classe
+        }
+        public Pessoa(string nome, string sobrenome)
+        {
+            // a propriedade da classe ta recebendo um valor dos parametros
+            Nome = nome;
+            Sobrenome = sobrenome;
+        }
         private string _nome;
         private int _idade;
         public string Nome
